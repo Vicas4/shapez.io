@@ -98,11 +98,11 @@ mainMenu:
     puzzleDlcWishlist: Önskelista nu!
     puzzleDlcViewNow: Se DLC
     mods:
-        title: Active Mods
+        title: Aktiva Mods
         warningPuzzleDLC: Playing the Puzzle DLC is not possible with mods. Please
             disable all mods to play the DLC.
     playingFullVersion: You are now playing the full version!
-    logout: Logout
+    logout: Logga ut
     noActiveSavegames: No active savegames found - Click play to start a new game!
     playFullVersionV2: Bough shapez on Steam? Play the full version in your Browser!
     playFullVersionStandalone: You can now also play the full version in your Browser!
@@ -288,23 +288,23 @@ dialogs:
         title: Radera Pussel?
         desc: Är du säker på att du vill ta bort '<title>'? Detta kan inte ångras!
     modsDifference:
-        title: Mod Warning
-        desc: The currently installed mods differ from the mods the savegame was created
-            with. This might cause the savegame to break or not load at all. Are
-            you sure you want to continue?
-        missingMods: Missing Mods
-        newMods: Newly installed Mods
+        title: Mod Varning
+        desc: De nuvarande installerade modsen skiljer från modsen som sparfilen skapades med. 
+        Detta kan förstöra sparfilen eller förhindra att sparfilen laddas korrekt. 
+        Är du säker på att du vill fortsätta?
+        missingMods: Saknar Mods
+        newMods: Nyligen installerade mods
     resourceLoadFailed:
-        title: Resources failed to load
-        demoLinkText: shapez demo on Steam
-        descWeb: "One ore more resources could not be loaded. Make sure you have a
-            stable internet connection and try again. If this still doesn't
-            work, make sure to also disable any browser extensions (including
-            adblockers).<br><br> As an alternative, you can also play the
-            <demoOnSteamLinkText>. <br><br> Error Message:"
-        descSteamDemo: "One ore more resources could not be loaded. Try restarting the
-            game - If that does not help, try reinstalling and verifying the
-            game files via Steam. <br><br> Error Message:"
+        title: Resurser misslyckades att ladda
+        demoLinkText: shapez demo på Steam
+        descWeb: "En eller fler resurser kunde inte laddas. Kolla att du har en
+            stabil internetuppkoppling och försök igen. Om det fortfarande inte
+            fungerar, se till att avaktivera webbläsartillägg (inklusive
+            annonsblockerare).<br><br> Alternativt kan du istället spela
+            <demoOnSteamLinkText>. <br><br> Fel Meddelande:"
+        descSteamDemo: "En eller fler resurser kunde inte laddas. Prova starta om
+            spelet - Om det inte hjälper, prova ominstallera och verifiera
+            spelfilerna via Steam. <br><br> Fel Meddelande:"
     steamSsoError:
         title: Full Version Logout
         desc: You have been logged out from the Full Browser Version since either your
@@ -482,26 +482,26 @@ ingame:
                 title: Stöd mig
                 desc: Jag utvecklar det på min fritid!
             achievements:
-                title: Achievements
+                title: Prestationer
                 desc: Hunt them all!
             mods:
-                title: Modding support!
-                desc: Over 80 mods available!
+                title: Mod stöd!
+                desc: Över 80 tillgängliga mods!
         titleV2: "Get the full version now on Steam to unlock:"
-        titleExpiredV2: Demo completed!
-        titleEnjoyingDemo: Enjoy the demo?
+        titleExpiredV2: Demo avklarad!
+        titleEnjoyingDemo: Gillar du demon?
     puzzleEditorSettings:
-        zoneTitle: Zone
-        zoneWidth: Width
-        zoneHeight: Height
+        zoneTitle: Zon
+        zoneWidth: Bredd
+        zoneHeight: Höjd
         trimZone: Trim
         clearItems: Clear Items
-        share: Share
-        report: Report
-        clearBuildings: Clear Buildings
-        resetPuzzle: Reset Puzzle
+        share: Dela
+        report: Rapportera
+        clearBuildings: Rensa Byggnader
+        resetPuzzle: Återställ Pussel
     puzzleEditorControls:
-        title: Puzzle Creator
+        title: Pussel Skapare
         instructions:
             - 1. Place <strong>Constant Producers</strong> to provide shapes and
               colors to the player
@@ -518,18 +518,18 @@ ingame:
               except for the Producers and Goal Acceptors - That's the part that
               the player is supposed to figure out for themselves, after all :)
     puzzleCompletion:
-        title: Puzzle Completed!
-        titleLike: "Click the heart if you liked the puzzle:"
-        titleRating: How difficult did you find the puzzle?
+        title: Pussel Avklarad!
+        titleLike: "Tryck på hjärtat om du gillade pusslet:"
+        titleRating: Hur svårt tyckte du pusslet var?
         titleRatingDesc: Your rating will help me to make you better suggestions in the future
-        continueBtn: Keep Playing
-        menuBtn: Menu
-        nextPuzzle: Next Puzzle
+        continueBtn: Fortsätt Spela
+        menuBtn: Meny
+        nextPuzzle: Nästa Pussel
     puzzleMetadata:
-        author: Author
+        author: Författare
         shortKey: Short Key
-        rating: Difficulty score
-        averageDuration: Avg. Duration
+        rating: Svårighetsgrad
+        averageDuration: Medel Tid
         completionRate: Completion rate
 shopUpgrades:
     belt:
@@ -788,15 +788,15 @@ storyRewards:
             under rullband och byggnader med den!
     reward_rotater_ccw:
         title: Motsols rotation
-        desc: Du har låst upp en variant av <strong>roteraren</strong> - Den låter dig
+        desc: Du har låst upp en ny variant av <strong>roteraren</strong> - Den låter dig
             rotera saker motsols! För att bygga den, välj roteraren och
             <strong>tryck ned 'T' för att bläddra genom dess varianter</strong>!
     reward_miner_chainable:
         title: Kedjeextraktor
-        desc: "You have unlocked the <strong>chained extractor</strong>! It can
-            <strong>forward its resources</strong> to other extractors so you
-            can more efficiently extract resources!<br><br> PS: The old
-            extractor has been replaced in your toolbar now!"
+        desc: "Du har låst upp en ny variant av<strong>kedjeextraktorn</strong>! Den kan
+            <strong>skicka vidare dess resurser</strong> till andra extraktorer så du
+            kan extrahera resurser mer effektivt!<br><br> PS: Den gamla
+            extraktorn nu har blivit utbytt i ditt verktygsfält!"
     reward_underground_belt_tier_2:
         title: Tunnel Tier II
         desc: Du har låst upp en ny variant av <strong>tunneln</strong> - Den har en
@@ -914,9 +914,9 @@ storyRewards:
 settings:
     title: Inställningar
     categories:
-        general: General
-        userInterface: User Interface
-        advanced: Advanced
+        general: Allmänt
+        userInterface: Gränssnitt
+        advanced: Advancerat
         performance: Performance
     versionBadges:
         dev: Utveckling
